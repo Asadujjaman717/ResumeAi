@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>2f8ede22-a8a6-4bc1-af45-87218ff1da3e</UserSecretsId>
@@ -10,9 +10,9 @@
   <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="3.3.0" />
     <PackageReference Include="Flurl.Http" Version="4.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
     <PackageReference Include="PdfPig" Version="0.1.12" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
 </Project>
