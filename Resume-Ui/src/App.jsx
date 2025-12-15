@@ -22,12 +22,19 @@ function App() {
     const formData = new FormData();
     formData.append("file", file);
 
-    try {
-      const res = await axios.post(
-        "https://localhost:44357/api/resume/analyze",
-        formData,
-        { headers: { "Content-Type": "multipart/form-data" } }
-      );
+    //try {
+      //const res = await axios.post(
+        //"https://localhost:44357/api/resume/analyze",
+        //formData,
+        //{ headers: { "Content-Type": "multipart/form-data" } }
+      //);
+
+      try {
+  const res = await axios.post(
+    "https://resumeai-production-84fe.up.railway.app/api/resume/analyze",
+    formData,
+    { headers: { "Content-Type": "multipart/form-data" } }
+  );
 
       const aiContent = res.data.choices[0].message.content;
       setResult(aiContent);
