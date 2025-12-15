@@ -32,11 +32,14 @@ var app = builder.Build();
 app.UseCors("AllowReactDev"); // before MapControllers
 
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+    //app.UseSwagger();
+    //app.UseSwaggerUI();
+//}
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 //app.UseHttpsRedirection(); // Optional, can be removed for HTTP-only
 
