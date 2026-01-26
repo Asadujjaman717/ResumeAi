@@ -1,10 +1,14 @@
 Submitted By: Asadujjaman Turag
+
 Project Summary
+
 Project Name: AI Resume Enhancer
+
 Description:
  AI Resume Enhancer is a full-stack web application that allows users to upload their resume and receive an AI-generated professional rewrite. The application improves resume quality by generating a refined version, an “About Me” summary, suggesting suitable job roles, and providing an AI-based resume score. This project demonstrates practical AI integration for real-world productivity use cases.
 
 AI Tools Used
+
 The following AI tools and technologies were used in this project:
 OpenAI GPT-4o-mini
 
